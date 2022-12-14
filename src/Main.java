@@ -1,38 +1,39 @@
 public class Main {
     public static void main(String[] args) {
         //Задача 1
-        int age = 22;
+        int age = 14;
         if (age >= 18) {
             System.out.println("Поздравляем с совершеннолетием!");
-        }
-        if (age < 18){
+        } else {
             System.out.println("Возраст не соответствует!");
         }
         //Задача 2
-        int age1 = 24;
-        if (age1 < 18) {
+        int age1 = 7;
+        if (age1 > 6) {
             System.out.println("На данный момент вы обучаетесь в школе");
+        } else {
+            System.out.println("В школу еще рано");
         }
-        if (age1 >= 18 && age1 < 23) {
-            System.out.println("На данный момент вы обучаетесь в университете");
+        int school = 18;
+        if (school > 16) {
+            System.out.println("На данный момент вы обучаетесь  в университете");
+        } else {
+            System.out.println("В универ еще рано");
         }
-        if (age1 > 23){
-            System.out.println("Пора скать первую работу");
+        int work = 24;
+        if (work > 22) {
+            System.out.println("Пора искать работу");
+
+        } else {
+            System.out.println("работу искать рано");
+            // Задание 3
         }
-        //Задача 3
-        int capacitySit = 50;
-        int capacityStand = 32;
-        if (capacitySit == 60 ) {
-            System.out.println("Сидячих мест нет");
-        }
-        if (capacitySit <60) {
-            System.out.println("Есть сдячие места");
-        }
-        if (capacityStand == 42){
-            System.out.println("Стоячх мест нет");
-        }
-        if (capacityStand <42){
-            System.out.println("Стоячие места есть");
+        int passengers = 102;
+        if (passengers < 90) {
+            System.out.println("Свободные места, есть");
+
+        }else {
+            System.out.println("Свободных мест нет");
         }
     }
 }
