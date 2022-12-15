@@ -32,8 +32,60 @@ public class Main {
         if (passengers < 90) {
             System.out.println("Свободные места, есть");
 
-        }else {
+        } else {
             System.out.println("Свободных мест нет");
         }
+
+        int howAge = 1;
+        if (howAge >= 2 && howAge < 7 ) {
+            System.out.println("Вы ходите в сад");
+        } else {
+            System.out.println("В сад еще рано");
+        }
+            int schoolAge = 15;
+            if( schoolAge >= 7 && schoolAge < 19) {
+                System.out.println("Вы ходите в школу");
+            } else {
+                System.out.println("В школу еще рано");
+            }
+            int univer = 20;
+            if (univer >= 19 && univer < 24){
+                System.out.println("Вы ходите в универ");
+            } else {
+                System.out.println("В универ еще рано");
+            }
+            int workAge = 25;
+            if (workAge >= 24 ) {
+                System.out.println("Пора на работу");
+            } else {
+                System.out.println("На работу рано");
+            }
+
+            int attraction = 5;
+            boolean notAttraction = attraction >= 5 && attraction < 14;
+            if (attraction < 5){
+                System.out.println("Тебе еще рано на аттракционы");
+            }
+            if (notAttraction){
+                System.out.println("Вы можете кататься на аттракционе только в сопровождении взрослого");
+            } else {
+                System.out.println("Вы можете кататься на аттракционе");
+            }
+
+
+            int one = 1;
+            int two = 1;
+            int three = 1;
+            if (one > two && one > three){
+                System.out.println("Первое число самое большое");
+            }
+            if (two > one && two > three){
+                System.out.println("Второе число самое большое");
+            }
+            if (three > one && three > two){
+                System.out.println("Третье число самое большое");
+            } else {
+                System.out.println("Все числа равны");
+            }
     }
 }
